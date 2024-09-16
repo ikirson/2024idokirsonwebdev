@@ -1,0 +1,59 @@
+body{
+    background-color:lightsalmon ;
+}
+p{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+}
+h1{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+}
+h2{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+}
+h3{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+}
+a:link{
+    color:darkblue;
+}
+a:visited{
+    color:darkred;
+}
+ul{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+}
+blockquote{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+}
+table{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+}
+hr{
+    border: 0;
+    height: 3px;
+    width: 100%;
+    background-color: aliceblue;
+}
+th{
+    background-color: aliceblue;
+    color: darkslategray;
+}
+td{
+    background-color: darkslategray;
+    color: aliceblue;
+}
+/* help uri helped me set up vscode to do this lab */
