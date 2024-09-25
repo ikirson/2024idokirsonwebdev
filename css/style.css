@@ -1,59 +1,102 @@
-body{
+html{
+    font-size: 105%;
+}
+.bodyForClimateAndIndex{
     background-color:lightsalmon ;
 }
-p{
-    font-size: 18px;
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+.pForClimateAndIndex{
+    font-size: 1.728rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:darkslategrey;
+    line-height: 46px;
 }
-h1{
-    font-size: 35px;
+.h1ForClimateAndIndex{
+    font-size: 2.986rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:darkslategrey;
+    line-height: 75px;
 }
-h2{
-    font-size: 30px;
+.h2ForClimateAndIndex{
+    font-size: 2.488rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:darkslategrey;
+    line-height: 43px;
 }
-h3{
-    font-size: 25px;
+.h3ForClimateAndIndex{
+    font-size: 2.074rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:darkslategrey;
+    line-height: 53px;
 }
-a:link{
+.h4ForClimateAndIndex{
+    font-size: 1.728rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+    line-height: 46px;
+}
+.linkForClimateAndIndex{
     color:darkblue;
+    font-weight: bold;
 }
-a:visited{
+.visitedForClimateAndIndex{
     color:darkred;
 }
-ul{
+.ulForClimateAndIndex{
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:darkslategrey;
 }
-blockquote{
+.olForClimateAndIndex{
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:darkslategrey;
 }
-table{
+.blockquoteForClimateAndIndex{
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:darkslategrey;
 }
-hr{
-    border: 0;
-    height: 3px;
+.tableForClimateAndIndex{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+}
+.hrForClimateAndIndex{
+    border: 2.5px, solid, #000000;
+    height: 7.5px;
     width: 100%;
     background-color: aliceblue;
 }
-th{
+.thForClimateAndIndex{
     background-color: aliceblue;
     color: darkslategray;
 }
-td{
+.tdForClimateAndIndex{
     background-color: darkslategray;
     color: aliceblue;
+}
+.bodyForQuiz1Practice{
+    background-color: rgb(196, 158, 231);
+  }
+.h1ForQuiz1Practice{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: chartreuse;
+}
+.container{
+    width: 56rem;
+    margin: 3rem auto;
+}
+.title{
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #bbbbbb;
+    width: 25rem;
+    margin-bottom: 4rem;
+}
+.section{
+    margin-bottom: 3rem;
 }
 /* help uri helped me set up vscode to do this lab */
