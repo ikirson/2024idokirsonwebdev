@@ -1,8 +1,9 @@
 html{
     font-size: 105%;
+    scroll-behavior: smooth;
 }
 .bodyForClimateAndIndex{
-    background-color:lightsalmon ;
+    background-color: #c6b9bb; ;
 }
 *, *:before, *:after{
     box-sizing: border-box;
@@ -10,73 +11,114 @@ html{
 .pForClimateAndIndex{
     font-size: 1.728rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+    color:#2a2c24;
     line-height: 46px;
 }
 .h1ForClimateAndIndex{
     font-size: 2.986rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+    color:#2a2c24;
     line-height: 75px;
 }
 .h2ForClimateAndIndex{
     font-size: 2.488rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+    color:#2a2c24;
     line-height: 43px;
 }
 .h3ForClimateAndIndex{
     font-size: 2.074rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+    color:#2a2c24;
     line-height: 53px;
 }
 .h4ForClimateAndIndex{
     font-size: 1.728rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+    color:#2a2c24;
     line-height: 46px;
 }
-.linkForClimateAndIndex{
-    color:darkblue;
-    font-weight: bold;
+.allLinks{
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2A2C24;
+    text-decoration: none;
+    background-color: #b5b5c9;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    border-radius: 2.5% 2.5% 2.5% 2.5%;
+    box-shadow: .12rem .125rem .125rem .12rem rgb(113, 116, 116);
+    transition: .5s;
 }
-.visitedForClimateAndIndex{
-    color:darkred;
+.allLinks:hover{
+    background-color: #d1d1de;
+    box-shadow: .2rem .25rem .25rem .2rem rgba(15, 27, 27);
+    transition: .5s;
+}
+.fLinks{
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2A2C24;
+    text-decoration: none;
+    background-color: #b5b5c9;
+    padding: 1rem 1rem;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    border-radius: 2.5% 2.5% 2.5% 2.5%;
+    box-shadow: .12rem .125rem .125rem .12rem rgb(113, 116, 116);
+    transition: .5s;
+}
+.fLinks:hover{
+    background-color: #d1d1de;
+    box-shadow: .2rem .25rem .25rem .2rem rgba(15, 27, 27);
+    transition: .5s;
 }
 .ulForClimateAndIndex{
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+    color:#2a2c24;
 }
 .olForClimateAndIndex{
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+    color:#2a2c24;
 }
 .blockquoteForClimateAndIndex{
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+    color:#2a2c24;
 }
 .tableForClimateAndIndex{
+    height: 250px;
+    width: 600px;
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:darkslategrey;
+    color:#2A2C24;
+    transition: .5s;
+    border: solid #2a2c24;
+    margin-bottom: 1rem;
+}
+.tableForClimateAndIndex:hover{
+    box-shadow: 0rem .25rem .25rem .2rem rgba(15, 27, 27);
+    transition: .5s;
+}
+.tableForClimateAndIndex:active{
+    transform: scale(1.5);
+    transition: .5s ease-in;
 }
 .hrForClimateAndIndex{
-    border: 2.5px, solid, #000000;
+    border: 2.5px, solid, #2a2c24;
     height: 7.5px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #CFCFEA;
 }
 .thForClimateAndIndex{
-    background-color: aliceblue;
-    color: darkslategray;
+    background-color: #CFCFEA;
+    color: #2a2c24;
 }
 .tdForClimateAndIndex{
-    background-color: darkslategray;
-    color: aliceblue;
+    background-color: #2a2c24;
+    color: #CFCFEA;
 }
 .bodyForQuiz1Practice{
     background-color: rgb(196, 158, 231);
@@ -91,7 +133,7 @@ html{
 }
 .title{
     border-bottom-width: 1px;
-    border-bottom-style: dotted;
+    border-bottom: dotted;
     border-bottom-color: #bbbbbb;
     width: 25rem;
     margin-bottom: 4rem;
@@ -99,4 +141,41 @@ html{
 .section{
     margin-bottom: 3rem;
 }
+.imagesOfNamibia{
+    border-radius: 2.50% 2.50% 2.50% 2.50%;
+    border-style: solid;
+    border-width: 5px;
+    border: #2a2c24;
+    box-shadow: .1rem .12rem .12rem .1rem rgb(77, 80, 80);
+    transition: .5s;
+    margin-right: 1rem;
+    margin-top: .75rem;
+}
+.imagesOfNamibia:hover{
+    box-shadow: .2rem .25rem .25rem .2rem rgba(15, 27, 27);
+    transition: 0.2s ease-in-out;
+}
+.imagesOfNamibia:active{
+    transform: scale(2.5);
+    transition: 0.5s ease-in-out;
+}
+.namibiaCenter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.infographic{
+    border: solid #2a2c24;
+    transition: .5s;
+}
+.infographic:hover{
+    box-shadow: .2rem .25rem .25rem .2rem rgba(15, 27, 27);
+    transition: .5s;
+}
+.infographic:active{
+    transform: scale(1.5);
+    transition: .5s;
+}
+
 /* help uri helped me set up vscode to do this lab */
